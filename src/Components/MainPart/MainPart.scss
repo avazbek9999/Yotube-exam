@@ -1,0 +1,13 @@
+.main-part {
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	max-width: 1700px;
+}
+
+@media only screen and (max-width: 1085px) {
+	.main-part {
+		width: 85%;
+		max-width: 905px;
+	}
+}

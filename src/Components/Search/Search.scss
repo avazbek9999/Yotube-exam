@@ -1,0 +1,43 @@
+.form {
+	position: relative;
+	width: 100%;
+	max-width: 830px;
+	margin: 0;
+	margin-left: 59px;
+	padding: 0;
+	&__input {
+		width: 100%;
+		padding: 12px 23px;
+		background: #ebebeb;
+		mix-blend-mode: normal;
+		opacity: 0.3;
+		border-radius: 22px;
+		outline: none;
+		&:focus {
+			opacity: 0.8;
+		}
+	}
+
+	&__pic {
+		position: absolute;
+		top: 12px;
+		right: 13px;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.form{
+		width: 100%;
+		max-width: 567px;
+		margin-right: 20px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.form__input{
+		display: none;
+	}
+	.form__pic{
+		top: -7px;
+	}
+}

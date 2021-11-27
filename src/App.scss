@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./Assets/Fonts/mulish-v7-latin-regular.woff2') format('woff2'),
+		url('./Assets/Fonts/mulish-v7-latin-regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./Assets/Fonts/mulish-v7-latin-700.woff2') format('woff2'),
+		url('./Assets/Fonts/mulish-v7-latin-700.woff') format('woff');
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	scroll-behavior: smooth;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+body {
+	height: 100%;
+	font-family: 'Mulish', 'Arial', 'Helvetica', 'sans-serif';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	overflow: auto;
+}
+
+#root {
+	width: 100%;
+	max-width: 1920px;
+	height: 100%;
+}
+
+img {
+	object-fit: cover;
+	vertical-align: middle;
+}
+
+@media only screen and (max-width: 650px) {
+	.footer {
+		display: block !important;
+	}
+	.menu__inner{
+		display: none !important;
+	}
+}

@@ -1,0 +1,22 @@
+.video__inner {
+	display: flex;
+	width: 100%;
+	max-width: 1880px;
+	padding-top: 90px;
+	padding-left: 80px;
+	padding-right: 20px;
+	// max-width: 1368px;
+}
+
+@media only screen and (max-width: 1000px) {
+	.video__inner {
+		flex-direction: column;
+        max-width: 1000px;
+        align-items: center;
+	}
+}
+@media only screen and (max-width: 850px){
+    .video__inner{
+        padding-left: 50px;
+    }
+}

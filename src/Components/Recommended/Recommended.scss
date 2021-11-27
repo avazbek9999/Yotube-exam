@@ -1,0 +1,20 @@
+.recommended{
+    margin-bottom: 50px;
+}
+
+.recommended__inner {
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+}
+
+.recommended__headding {
+	margin: 0;
+    margin-bottom: 30px;
+	padding: 0;
+    font-family: 'Mulish';
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 33px;
+	color: #19202c;
+}

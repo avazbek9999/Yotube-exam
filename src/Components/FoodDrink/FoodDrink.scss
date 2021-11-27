@@ -1,0 +1,19 @@
+.dollie__span {
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #c2c2c2;
+	align-items: end;
+}
+
+.btn {
+	margin-left: 40px;
+}
+
+@media only screen and (max-width: 910px) {
+	.dollie__span{
+		display: none;
+	}
+}
