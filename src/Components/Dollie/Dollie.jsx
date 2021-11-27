@@ -13,7 +13,7 @@ function Dollie() {
 	React.useEffect(() => {
 		fetch(process.env.REACT_APP_PLACEHOLDER_API + '/photos')
 			.then((res) => res.json())
-			.then((data) => setData(data.splice(0, 12)));
+			.then((data) => setData(data.splice(0, 6)));
 	}, []);
 
 	return (
