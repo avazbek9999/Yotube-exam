@@ -2,6 +2,7 @@ function BellIcon() {
 	return (
 		<>
 			<svg
+				className='bell'
 				width={22}
 				height={26}
 				fill='none'

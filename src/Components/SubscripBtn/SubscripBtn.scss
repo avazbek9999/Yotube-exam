@@ -1,8 +1,8 @@
-.subscribe__btn{
-    display: flex;
+.subscribe__btn {
+	display: flex;
 	align-items: center;
 	justify-content: center;
-    margin-left: auto;
+	margin-left: auto;
 	// width: 100%;
 	width: 154px;
 
@@ -13,6 +13,14 @@
 	color: #ffffff;
 	background: #ff0000;
 	border-radius: 20px;
-    outline: none;
+	outline: none;
 }
 
+@media only screen and(max-width:940px) {
+	.subscribe__btn {
+		width: 120px;
+		padding: 7px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+}

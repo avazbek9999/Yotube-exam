@@ -3,6 +3,7 @@ import './ChanIntro.scss';
 import { Routes, Route, NavLink } from 'react-router-dom';
 
 import SearchIcon from '../Lib/Svg/SearchIcon';
+import Arrow from '../Lib/Svg/Arrow';
 import Choosing from '../../Assets/Images/Choosing.png';
 import Benson from '../../Assets/Images/Benson.png';
 import Cobb from '../../Assets/Images/Cobb.png';
@@ -13,6 +14,27 @@ function ChanIntro() {
 		<>
 			<section className='intro'>
 				<div className='intro__inner'>
+					<ul className='intro__list intro__mobile'>
+						<li className='intro__item'>
+							<NavLink className='intro__link' to='home'>
+								Home
+							</NavLink>
+						</li>
+						<li className='intro__item'>
+							<NavLink className='intro__link' to='videos'>
+								Videos
+							</NavLink>
+						</li>
+						<li className='intro__item'>
+							<NavLink className='intro__link' to='playlists'>
+								Playlists
+							</NavLink>
+						</li>
+						<li className='intro__item'>
+							<Arrow />
+						</li>
+					</ul>
+
 					<ul className='intro__list'>
 						<li className='intro__item'>
 							<NavLink className='intro__link' to='home'>
@@ -90,8 +112,10 @@ function ChanIntro() {
 								rapidly evolving beyond banner ads and intrusive
 								pop-ups. Bayles A common medium for advertising
 								on the Internet is the use of banner ads.{' '}
-							</p >
-							<span className='description__span'>11k views · 6 months ago</span>
+							</p>
+							<span className='description__span'>
+								11k views · 6 months ago
+							</span>
 						</div>
 					</div>
 				</div>
@@ -106,7 +130,9 @@ function ChanIntro() {
 								className='channel__recommendeds__link'
 								to='/channel'>
 								<img src={Benson} alt='avatar' />
-								<h5 className='channel__recommendeds__paragrf'>Flora Benson</h5>
+								<h5 className='channel__recommendeds__paragrf'>
+									Flora Benson
+								</h5>
 							</NavLink>
 						</li>
 						<li className='channel__recommendeds__item'>
@@ -114,7 +140,9 @@ function ChanIntro() {
 								className='channel__recommendeds__link'
 								to='/channel'>
 								<img src={Cobb} alt='avatar' />
-								<h5 className='channel__recommendeds__paragrf'>Violet Cobb</h5>
+								<h5 className='channel__recommendeds__paragrf'>
+									Violet Cobb
+								</h5>
 							</NavLink>
 						</li>
 						<li className='channel__recommendeds__item'>
@@ -122,7 +150,9 @@ function ChanIntro() {
 								className='channel__recommendeds__link'
 								to='/channel'>
 								<img src={Philip} alt='avatar' />
-								<h5 className='channel__recommendeds__paragrf'>Phillip Mullins</h5>
+								<h5 className='channel__recommendeds__paragrf'>
+									Phillip Mullins
+								</h5>
 							</NavLink>
 						</li>
 					</ul>

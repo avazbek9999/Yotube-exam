@@ -24,7 +24,7 @@ function ChanHead() {
 					</div>
 				</div>
 				<div className='avatar__info'>
-					<BellIcon />
+					<BellIcon  />
 					<SubscripBtn />
 				</div>
 			</section>
