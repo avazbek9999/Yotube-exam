@@ -8,12 +8,7 @@ import PrevIcon from '../Lib/Svg/PrevIcon';
 import NextIcon from '../Lib/Svg/NextIcon';
 
 function Margaret() {
-	// const settings = {
-	// 	lazyload: true,
-	// 	nav: false,
-	// 	mouseDrag: true,
-	// 	controls: false,
-	// };
+	
 	const [data, setData] = React.useState([]);
 
 	React.useEffect(() => {
