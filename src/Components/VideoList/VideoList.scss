@@ -1,6 +1,7 @@
 .videolist {
 	width: 100%;
-	max-width: 367px;
+	max-width: 267px;
+	height: auto;
 }
 .next__list {
 	display: flex;
@@ -28,6 +29,7 @@
 
 .next__headding {
 	margin: 0;
+	margin-right: 15px;
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 45px;
@@ -69,4 +71,17 @@
     display: flex;
     justify-content: space-between;
     opacity: 0.5;
+}
+
+@media only screen and(max-width:1001px){
+	.videolist{
+		width: 100%;
+		max-width: 900px;
+	}
+	.next__item__img{
+		width: 100%;
+		max-width: 900px;
+
+	}
+	
 }
